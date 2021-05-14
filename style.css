@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-image:url("https://www.timeanddate.com/scripts/weather_og.php?h1=Weather&h2=Local%20Weather%20Around%20the%20World");
+    background-size: cover;
+    height: auto;
+}
+.row {
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+}
+.header {
+    background: rgb(42, 216, 216);
+    background-size: cover;
+    background-position: relative;
+    color: blue;
+    text-align: center;
+    padding: 5rem;
+}
+
+.header h1 {
+    font-weight: 500;
+    font-size: 34px;
+    color: #e4eff7;
+}
+.header p {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #e4eff7;
+}
+
+.main {
+    background: chartreuse;
+}
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.inputs inout[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    color: #e4eff7;
+    margin: 4px;
+    border-radius: 2px;
+}
+
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: #212121;
+    color: #e4eff7;
+    font: bold;
+    border:none;
+    border-radius: 2px;
+}
+
+.display {
+    text-align: center;
+    color: #e4eff7;
+}
+.wrapper {
+    margin: 0 9rem;
+    width: 50%;
+    background: #212121;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
